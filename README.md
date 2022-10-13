@@ -1,6 +1,8 @@
 # weather-sample
 
-Moshi for Json Data
+Language Kotlin 
+
+Moshi for Json library 
 Display current weather by location
 Search weather by city
 Schedule notification at 6:00 AM
