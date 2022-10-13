@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="co.weather.coroutine.ui.screens.xml.HomeViewModel" />
+
+        <variable
+            name="item"
+            type="co.weather.coroutine.domain.model.MainWeatherData" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:id="@+id/appBarLayout"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                app:title="@string/app_name"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:boxBackgroundMode="none"
+            android:layout_marginTop="@dimen/dimens_8"
+            app:boxStrokeWidth="0dp"
+            android:layout_marginHorizontal="@dimen/dimens_8"
+            app:boxStrokeWidthFocused="0dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/primaryDark"
+            app:hintEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edt_primary"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="@dimen/sdp_10"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical|start"
+                android:hint="@string/search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingHorizontal="@dimen/sdp_10"
+                android:paddingTop="@dimen/sdp_0"
+                android:paddingBottom="@dimen/sdp_0"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/ssp_14" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/lvView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/dimens_8"
+            android:layout_marginVertical="@dimen/dimens_16"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/input_layout"
+            tools:layout_editor_absoluteX="8dp">
+
+            <include
+                android:id="@+id/contentMainLayout"
+                layout="@layout/layout_weather_details"
+                app:item="@{item}" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include layout="@layout/view_loading" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

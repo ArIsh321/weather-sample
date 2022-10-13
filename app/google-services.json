@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286941845417",
+    "project_id": "weather-test-c05e6",
+    "storage_bucket": "weather-test-c05e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286941845417:android:1edfb03c299da9ba9c16b8",
+        "android_client_info": {
+          "package_name": "co.weather.coroutine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286941845417-2gapi1qe4ubsjrs21phkhhtgo4tnviqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIQjZA8dSgTGgK8En58VAdCFtR-4k2DhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286941845417-2gapi1qe4ubsjrs21phkhhtgo4tnviqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

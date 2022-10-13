@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="error_generic">Unexpected error</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="wind_label">Wind</string>
+    <string name="next_5_days_hourly">Weather Update</string>
+    <string name="wind_unit_label">%.0f km/hr</string>
+    <string name="search">Search by City</string>
+    <string name="view_more">View More</string>
+</resources>

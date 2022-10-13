@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/weather-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather-sample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather-sample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather-sample.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather-sample.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather-sample.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather-sample.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather-sample.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather-sample.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather-sample.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/weather-sample.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather-sample.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/weather-sample.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather-sample.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/weather-sample.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/weather-sample.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/weather-sample.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/weather-sample.data.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/weather-sample.data.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/weather-sample.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/weather-sample.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/weather-sample.data.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/weather-sample.data.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/weather-sample.domain.unitTest.iml" />
+    </modules>
+  </component>
+</project>
