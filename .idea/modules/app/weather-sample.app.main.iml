@@ -59,6 +59,7 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/productionDebug/out" />
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/productionDebug/out">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/productionDebug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/productionDebug/out" isTestSource="false" generated="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/data_binding_trigger/productionDebug">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/data_binding_trigger/productionDebug" isTestSource="false" generated="true" />
