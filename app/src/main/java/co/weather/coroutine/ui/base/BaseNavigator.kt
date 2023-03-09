@@ -6,9 +6,7 @@ import androidx.annotation.IdRes
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import co.weather.coroutine.R
-import co.weather.coroutine.domain.model.MainWeatherData
-import co.weather.coroutine.ui.screens.xml.HomeFragmentDirections
+
 import timber.log.Timber
 
 

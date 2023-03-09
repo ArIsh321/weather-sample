@@ -2,35 +2,15 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_nav_graph"
     app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="co.weather.coroutine.ui.screens.xml.HomeFragment"
+        android:name="co.weather.coroutine.ui.screens.home.HomeFragment"
         tools:layout="@layout/fragment_home" >
 
-        <action
-            android:id="@+id/action_global_weatherFragment"
-            app:destination="@id/weatherFragment"
-            app:enterAnim="@anim/anim_slide_in_right"
-            app:exitAnim="@anim/anim_slide_out_left"
-            app:popEnterAnim="@anim/anim_slide_in_left"
-            app:popExitAnim="@anim/anim_slide_out_right"/>
     </fragment>
 
-
-
-    <fragment
-        android:id="@+id/weatherFragment"
-        android:name="co.weather.coroutine.ui.screens.xml.city.WeatherFragment"
-        tools:layout="@layout/fragment_city_weather" >
-        <argument
-            android:name="weatherData"
-            app:argType="co.weather.coroutine.domain.model.MainWeatherData">
-
-        </argument>
-    </fragment>
 
 
 

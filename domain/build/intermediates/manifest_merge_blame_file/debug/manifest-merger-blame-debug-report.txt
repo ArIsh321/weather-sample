@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="1"
-6-->/Users/arish/Downloads/weather-sample/domain/src/main/AndroidManifest.xml
+6-->/Users/MyComputer/MyProjects/Androids/weather-sample/domain/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="1" />
-7-->/Users/arish/Downloads/weather-sample/domain/src/main/AndroidManifest.xml
+7-->/Users/MyComputer/MyProjects/Androids/weather-sample/domain/src/main/AndroidManifest.xml
 8
 9</manifest>

@@ -8,7 +8,6 @@ plugins {
     id("dagger.hilt.android.plugin")
     id("androidx.navigation.safeargs.kotlin")
 
-    id("plugins.jacoco-report")
 }
 val keystoreProperties = rootDir.loadGradleProperties("signing.properties")
 
@@ -91,14 +90,15 @@ android {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
-
     buildFeatures {
         viewBinding = true
         dataBinding = true
     }
 
-    lintOptions {
-        isCheckDependencies = true
+
+    lint {
+        lintConfig = file("lint.xml")
+        checkDependencies = true
         xmlReport = true
         xmlOutput = file("build/reports/lint/lint-result.xml")
     }
@@ -126,11 +126,9 @@ dependencies {
     implementation("androidx.appcompat:appcompat:${Versions.ANDROIDX_SUPPORT_VERSION}")
     implementation("androidx.constraintlayout:constraintlayout:${Versions.CONSTRAINT_LAYOUT_VERSION}")
     implementation ("com.google.android.material:material:${Versions.ANDROID_MATERIAL_VERSION}")
-    implementation ("androidx.swiperefreshlayout:swiperefreshlayout:${Versions.ANDROIDX_SWIPE_REFRESH_LAYOUT_VERSION}")
 
     implementation("androidx.core:core-ktx:${Versions.ANDROIDX_CORE_KTX_VERSION}")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:${Versions.ANDROIDX_LIFECYCLE_VERSION}")
-
 
     implementation("androidx.navigation:navigation-fragment-ktx:${Versions.ANDROIDX_NAVIGATION_VERSION}")
     implementation("androidx.navigation:navigation-runtime-ktx:${Versions.ANDROIDX_NAVIGATION_VERSION}")
@@ -144,6 +142,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.KOTLINX_COROUTINES_VERSION}")
 
     implementation("com.google.dagger:hilt-android:${Versions.HILT_VERSION}")
+    implementation("androidx.databinding:viewbinding:7.4.2")
     kapt("com.google.dagger:hilt-compiler:${Versions.HILT_VERSION}")
 
     debugImplementation("androidx.fragment:fragment-testing:${Versions.ANDROIDX_FRAGMENT_VERSION}")
@@ -167,7 +166,6 @@ dependencies {
     testImplementation("androidx.test.ext:junit-ktx:${Versions.TEST_JUNIT_ANDROIDX_EXT_VERSION}")
     testImplementation("com.google.dagger:hilt-android-testing:${Versions.HILT_VERSION}")
     testImplementation("io.mockk:mockk:${Versions.TEST_MOCKK_VERSION}")
-
 
     kaptTest("com.google.dagger:hilt-android-compiler:${Versions.HILT_VERSION}")
     testAnnotationProcessor("com.google.dagger:hilt-android-compiler:${Versions.HILT_VERSION}")

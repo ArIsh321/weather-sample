@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.savedstate:savedstate-ktx:1.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f4c07bb44ae38ff649f950212b697dec/transformed/jetified-savedstate-ktx-1.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65c7898f302de355f1e64b77c02884c7/transformed/jetified-savedstate-ktx-1.1.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/65c7898f302de355f1e64b77c02884c7/transformed/jetified-savedstate-ktx-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65c7898f302de355f1e64b77c02884c7/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml" />
     </CLASSES>
